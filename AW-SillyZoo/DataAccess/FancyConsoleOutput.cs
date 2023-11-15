@@ -10,7 +10,8 @@ namespace AW_SillyZoo.DataAccess
     {
         public void WriteString(string text)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\t" + text.Replace("\n", "\n\t"));
             Console.ForegroundColor = ConsoleColor.White;
         }

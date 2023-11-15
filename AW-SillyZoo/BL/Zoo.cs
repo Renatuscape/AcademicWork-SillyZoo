@@ -16,7 +16,7 @@
                            $"\n___________________________________________\n";
             foreach (Animal animal in animals)
             {
-                zooString += animal.AnimalToString();
+                zooString += animal.AnimalToString()+"\n";
             }
 
             return zooString;
