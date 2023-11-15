@@ -14,7 +14,10 @@ namespace AW_SillyZoo
             sillyZoo.animals = new()
             {
                 new Cat("Jimmy"),
-                new Dog("Ricola")
+                new Dog("Ricola"),
+                new Hawk("Steward"),
+                new Bat("Molly"),
+                new Penguin("Pingu")
             };
 
             outputWriter.WriteString(sillyZoo.ZooInfo());
