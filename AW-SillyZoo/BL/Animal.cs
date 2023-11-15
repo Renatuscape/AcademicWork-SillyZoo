@@ -14,7 +14,7 @@ namespace AW_SillyZoo.BL
         public Animal(string speciesName)
         {
             Name = speciesName;
-            Description = $"Written on the habitat: I am {Name} the {GetType().Name.ToLower()}.\n";
+            Description = $"Written on the habitat: I am {this}.\n";
         }
         public virtual string Move()
         {
@@ -25,9 +25,9 @@ namespace AW_SillyZoo.BL
             return string.Empty;
         }
 
-        public string AnimalToString()
+        public virtual string AnimalToString()
         {
-            string animalInfo = $"{Description}\n{Move()}\n{Talk()}\n\n";
+            string animalInfo = $"{Description}\n{Talk()}\n{Move()}\n";
             return animalInfo;
         }
 
