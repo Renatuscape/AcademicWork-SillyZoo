@@ -1,6 +1,4 @@
-﻿
-
-using AW_SillyZoo.BL;
+﻿using AW_SillyZoo.BL;
 using AW_SillyZoo.DataAccess;
 
 namespace AW_SillyZoo
